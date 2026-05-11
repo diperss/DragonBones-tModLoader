@@ -1,0 +1,26 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	BasicSword: {
+		DisplayName: Basic Sword
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	WeaponSpawnItem: {
+		Tooltip: ""
+		DisplayName: Weapon Spawn Item
+	}
+}
+
+NPCs: {
+	SwordNPC.DisplayName: Sword N P C
+	StuffNPC.DisplayName: Stuff N P C
+	BowNPC.DisplayName: Bow N P C
+	PersonaNPC.DisplayName: Persona N P C
+	TestDragonNPC.DisplayName: Test Dragon N P C
+}

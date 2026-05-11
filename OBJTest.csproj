@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="Content\NPCs\AbstarctFactoryTest\WeaponSpawnHelper.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="OBJTest.Tests\**\*.cs" />
+	  <EmbeddedResource Remove="OBJTest.Tests\**\*" />
+	  <None Remove="OBJTest.Tests\**\*" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>
